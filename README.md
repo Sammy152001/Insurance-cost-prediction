@@ -1,31 +1,38 @@
 # Insurance Cost Prediction
 
 ## Description
-This project focuses on analyzing a medical insurance dataset to understand the factors that influence insurance charges. The analysis helps in identifying patterns and relationships between variables such as age, BMI, smoking habits, and region.
+This project analyzes a medical insurance dataset and builds a Machine Learning model to predict insurance charges based on user attributes like age, BMI, smoking status, and region.
 
-## Tools Used
+## Tools & Technologies
 - Python (pandas, numpy, matplotlib)
+- Machine Learning (scikit-learn)
 
 ## Dataset
 Dataset is available in the `data/` folder.
 
 ## Objective
-To analyze and identify the key factors that impact medical insurance costs.
+To predict medical insurance costs using Machine Learning techniques.
 
 ## Steps Performed
 - Data cleaning and preprocessing  
 - Exploratory Data Analysis (EDA)  
-- Data visualization  
+- Feature selection  
+- Model building using Linear Regression  
+- Model evaluation  
 
 ## Key Insights
-- Smoking has a significant impact on insurance charges  
-- Higher BMI leads to increased medical expenses  
-- Age plays a major role in determining costs  
+- Smoking has a major impact on insurance cost  
+- BMI and age significantly influence charges  
+- Strong relationship between lifestyle factors and cost  
+
+## Machine Learning
+- Model Used: Linear Regression  
+- Built predictive model to estimate insurance charges  
 
 ## Final Result
-- Successfully analyzed insurance dataset  
-- Identified major cost-driving factors  
-- Created visualizations for better understanding  
+- Successfully built a predictive model  
+- Model can estimate insurance cost based on input features  
+- Visualized relationships between variables  
 
 ## Conclusion
-This project helps in understanding pricing strategies and can be useful for predicting future insurance costs.
+This project demonstrates how Machine Learning can be used to predict real-world financial data.
